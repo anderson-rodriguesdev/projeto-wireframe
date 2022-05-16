@@ -24,6 +24,7 @@ h3 {
 .btn-primary {
   display: inline-block;
   font-family: "Sora", sans-serif;
+  font-weight: 600;
   padding: 1.2rem 3.4rem;
   letter-spacing: -0.01em;
   background: var(--brand-colors-pink);
