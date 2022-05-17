@@ -151,3 +151,30 @@ header nav ul li:first-child {
   margin-top: 0.8rem;
   line-height: 150%;
 }
+
+/* Second Area */
+
+.s-card-featured .second-area {
+  margin-top: 11.2rem;
+}
+
+.s-card-featured .second-area .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.s-card-featured .second-area .all-images {
+  margin-top: 6.4rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3.2rem;
+}
+.s-card-featured .second-area .all-images .image {
+  width: 17.6rem;
+  height: 11.2rem;
+  background-color: var(--grey-colors-200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
