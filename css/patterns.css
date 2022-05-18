@@ -29,6 +29,11 @@ h3 {
   letter-spacing: -0.01em;
   background: var(--brand-colors-pink);
   color: var(--grey-colors-100);
+  transition: transform 0.3s;
+}
+
+.btn-primary:hover {
+  transform: scale(1.05);
 }
 
 .menu-item {
@@ -41,4 +46,9 @@ h3 {
   letter-spacing: -0.01em;
   background: var(--grey-colors-50);
   color: var(--grey-colors-400);
+  transition: all 0.3s;
+}
+.menu-item:hover {
+  background-color: #acb4bf;
+  color: var(--white);
 }
